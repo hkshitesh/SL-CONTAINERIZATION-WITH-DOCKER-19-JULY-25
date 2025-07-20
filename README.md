@@ -18,6 +18,7 @@ docker run
 
 	docker run -it <img-name> /bin/bash   (cli based container)
 	docker run -p 8004:80 nginx	
+ 	docker exec -it <cont-id> /bin/bash
 
 docker ps     ->list all running containers
 
